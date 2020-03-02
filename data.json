@@ -1,0 +1,41 @@
+const projects = [{
+  "id": "",
+  "poject_name": "",
+  "description": "",
+  "technologies": [],
+  "live_link": "",
+  "github_link": "",
+  "image_urls": []
+}, {
+  "id": "",
+  "poject_name": "",
+  "description": "",
+  "technologies": [],
+  "live_link": "",
+  "github_link": "",
+  "image_urls": []
+}, {
+  "id": "",
+  "poject_name": "",
+  "description": "",
+  "technologies": [],
+  "live_link": "",
+  "github_link": "",
+  "image_urls": []
+}, {
+  "id": "",
+  "poject_name": "",
+  "description": "",
+  "technologies": [],
+  "live_link": "",
+  "github_link": "",
+  "image_urls": []
+}, {
+  "id": "",
+  "poject_name": "",
+  "description": "",
+  "technologies": [],
+  "live_link": "",
+  "github_link": "",
+  "image_urls": []
+}, ];
