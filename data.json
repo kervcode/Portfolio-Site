@@ -38,4 +38,4 @@ const projects = [{
   "live_link": "",
   "github_link": "",
   "image_urls": []
-}, ];
+}];
