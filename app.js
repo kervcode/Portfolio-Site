@@ -8,7 +8,9 @@ const app = express();
 app.set('view engine', 'pug');
 
 //Static middleware
-app.use(express.static('public'))
+// app.use(express.static('public'));
+app.use('/static', express.static('public'))
+// app.use(express.static(__dirname + '/public'));
 
 
 /**
@@ -17,7 +19,7 @@ app.use(express.static('public'))
 
 //index
 app.get('/', (req, res) => {
-  res.render('index')
+  res.render('index');
 });
 
 app.get('/about', (req, res) => {
@@ -28,6 +30,6 @@ app.get('/projects', (req, res) => {
   res.render('project')
 });
 
-app.listen(3001, () => {
+app.listen(3000, () => {
   console.log('SERVER LISTENING ON PORT 3000')
 })

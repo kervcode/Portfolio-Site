@@ -1,5 +1,29 @@
 const projects = [{
-  "id": "",
+  "id": "0",
+  "poject_name": "Random Quote Generator",
+  "description": "",
+  "technologies": ['HTML', 'CSS','JavaScript', 'VsCode'],
+  "live_link": "https://randomquotegenerator.netlify.com/",
+  "github_link": "https://github.com/kervcode/A-Random-Quote-Generator",
+  "image_urls": []
+}, {
+  "id": "1",
+  "poject_name": "Interactive Form",
+  "description": "In this project I use jQuery to enhance the user interaction on a registraction form.",
+  "technologies": ['HTML', 'CSS','jQuery', 'GitHub', 'VsCode'],
+  "live_link": "https://kervcode.github.io/Interactive-Form/",
+  "github_link": "https://github.com/kervcode/Interactive-Form/",
+  "image_urls": []
+}, {
+  "id": "2",
+  "poject_name": "Phrase Hunter",
+  "description": "",
+  "technologies": [],
+  "live_link": "",
+  "github_link": "",
+  "image_urls": []
+}, {
+  "id": "3",
   "poject_name": "",
   "description": "",
   "technologies": [],
@@ -7,31 +31,7 @@ const projects = [{
   "github_link": "",
   "image_urls": []
 }, {
-  "id": "",
-  "poject_name": "",
-  "description": "",
-  "technologies": [],
-  "live_link": "",
-  "github_link": "",
-  "image_urls": []
-}, {
-  "id": "",
-  "poject_name": "",
-  "description": "",
-  "technologies": [],
-  "live_link": "",
-  "github_link": "",
-  "image_urls": []
-}, {
-  "id": "",
-  "poject_name": "",
-  "description": "",
-  "technologies": [],
-  "live_link": "",
-  "github_link": "",
-  "image_urls": []
-}, {
-  "id": "",
+  "id": "4",
   "poject_name": "",
   "description": "",
   "technologies": [],
