@@ -24,11 +24,11 @@ const projects = [{
   "image_urls": []
 }, {
   "id": "3",
-  "poject_name": "",
+  "poject_name": "List Pagination",
   "description": "",
   "technologies": ['HTML', 'CSS', 'JavaScript'],
-  "live_link": "",
-  "github_link": "",
+  "live_link": "https://kervcode.github.io/List-Pagination-and-Filtering/#",
+  "github_link": "https://github.com/kervcode/List-Pagination-and-Filtering",
   "image_urls": []
 }, {
   "id": "4",
