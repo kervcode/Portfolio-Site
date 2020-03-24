@@ -1,6 +1,7 @@
 //Import Express
 const express = require("express");
-//
+//require the data file
+const data = require("../data/data.json")
 const app = express();
 
 
