@@ -1,7 +1,9 @@
 //Import Express
 const express = require("express");
 //require the data file
-const data = require("../data/data.json")
+const data = require("./data/data.json").projects;
+
+console.dir(data)
 const app = express();
 
 
@@ -27,7 +29,9 @@ app.get('/about', (req, res) => {
   res.render('about')
 });
 
-app.get('/projects', (req, res) => {
+app.get('/projects/:id', (req, res) => {
+  const id = req.query.id;
+  const projet = req.params.
   res.render('project')
 });
 
