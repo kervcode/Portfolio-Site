@@ -3,7 +3,7 @@ const express = require("express");
 //require the data file
 const data = require("./data/data.json").projects;
 
-console.dir(data)
+// console.dir(data)
 const app = express();
 
 
@@ -30,8 +30,9 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/projects/:id', (req, res) => {
-  const id = req.query.id;
-  const projet = req.params.
+  // const id = req
+  console.log(req.params.id)
+  // const projet = req.params.
   res.render('project')
 });
 
