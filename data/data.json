@@ -7,7 +7,7 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://randomquotegenerator.netlify.com/",
       "github_link": "https://github.com/kervcode/A-Random-Quote-Generator",
-      "image_urls": [""]
+      "image_urls": ["/images/form-small.png", "/images/form-large.png"]
     },
     {
       "id": "2",
@@ -16,7 +16,7 @@
       "technologies": ["HTML", "CSS", "jQuery"],
       "live_link": "https://kervcode.github.io/Interactive-Form/",
       "github_link": "https://github.com/kervcode/Interactive-Form/",
-      "image_urls": ["../images/form-small.png", "../images/form-large.png"]
+      "image_urls": ["/images/form-small.png", "/images/form-large.png"]
     },
     {
       "id": "3",
@@ -25,7 +25,7 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://phrasehunt.netlify.com/",
       "github_link": "https://github.com/kervcode/phrase-hunter",
-      "image_urls": ["../images/phrase-hunter-small.png", ""]
+      "image_urls": ["/images/phrase-hunter-small.png", ""]
     },
     {
       "id": "4",
@@ -35,8 +35,8 @@
       "live_link": "https://kervcode.github.io/List-Pagination-and-Filtering/#",
       "github_link": "https://github.com/kervcode/List-Pagination-and-Filtering",
       "image_urls": [
-        "../images/listPagination-small.png",
-        "../images/listPagination-large.png"
+        "/images/listPagination-small.png",
+        "/images/listPagination-large.png"
       ]
     }
   ]
