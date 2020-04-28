@@ -3,11 +3,16 @@
     {
       "id": "1",
       "project_name": "Random Quote Generator",
-      "description": "Random quote Generator",
+      "description": "In this project, I used vanilla JavaScript to create an app that displays random quote each time a user interact with the Show Another Quote Button. The background color of the page also randomly change for each click on the button. Below are some screenshot of different quotes showing the functionality of the app.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "https://randomquotegenerator.netlify.com/",
       "github_link": "https://github.com/kervcode/A-Random-Quote-Generator",
-      "image_urls": ["/images/form-small.png", "/images/form-large.png"]
+      "image_urls": [
+        "/images/random-quote-small.png",
+        "/images/random-quote-large1.png",
+        "/images/random-quote-large2.png",
+        "/images/random-quote-large3.png"
+      ]
     },
     {
       "id": "2",

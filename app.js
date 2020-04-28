@@ -33,7 +33,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/projects", (req, res) => {
-  res.render("project");
+  res.render("project", { data });
 });
 
 app.get("/projects/:id", (req, res) => {
