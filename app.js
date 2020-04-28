@@ -27,14 +27,12 @@ app.use((req, res, next) => {
 app.get("/", (req, res) => {
   // console.log(data);
   const small_image = [];
+  // const project_title = [];
 
-  data.map((project) => {
-    console.log(data)
-    return small_image.push(project.image_urls[0])
-    // return small_image.push(project)
-  });
-  // console.log(small_image);
-  res.render("index", { small_image });
+  data.map((project) => small_image.push(project.image_urls[0]));
+
+  console.log(small_image);
+  res.render("index", { small_image, data });
 });
 
 app.get("/about", (req, res) => {
@@ -42,8 +40,9 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/projects", (req, res) => {
-  res.send("project");
+  res.render("project");
 });
+
 app.get("/projects/:id", (req, res) => {
   const id = parseInt(req.params.id);
   // console.log(id);
