@@ -27,8 +27,13 @@ app.use((req, res, next) => {
 app.get("/", (req, res) => {
   // console.log(data);
   const small_image = [];
-  data.map((project) => small_image.push(project.image_urls[0]));
-  console.log(small_image);
+
+  data.map((project) => {
+    console.log(data)
+    return small_image.push(project.image_urls[0])
+    // return small_image.push(project)
+  });
+  // console.log(small_image);
   res.render("index", { small_image });
 });
 
