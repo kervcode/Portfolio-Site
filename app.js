@@ -25,14 +25,7 @@ app.use((req, res, next) => {
 
 //index
 app.get("/", (req, res) => {
-  // console.log(data);
-  const small_image = [];
-  // const project_title = [];
-
-  data.map((project) => small_image.push(project.image_urls[0]));
-
-  console.log(small_image);
-  res.render("index", { small_image, data });
+  res.render("index", { data });
 });
 
 app.get("/about", (req, res) => {
